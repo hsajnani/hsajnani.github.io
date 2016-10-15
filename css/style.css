@@ -1,0 +1,238 @@
+html 
+{
+	overflow:scroll;
+}
+	
+body 
+{
+	background-color:#F3F3F3;
+}
+
+/*==================================================================================*/
+/*==================================================================================*/
+/*==================================================================================*/
+/*Name on top, center of each page*/
+.nameOnTopCenter
+{
+	color:#111111;
+	text-align:center;
+	font-family:calluna, Georgia, serif;
+	font-size:24px;
+}
+
+/*MENU*/
+#navigationMenu
+{
+	text-align:center;
+}
+
+.menuSelectedLink
+{
+	color:#D14836;
+
+	text-decoration:none;
+	font-family:proxima-nova, 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight:bold;
+
+	padding:0.5em 1em 0.5em 1em;
+}	
+
+.menuAvailableLink
+{
+	color:#666666;
+
+	text-decoration:none;
+	font-family:proxima-nova, 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight:bold;
+	
+	padding:0.5em 1em 0.5em 1em;
+}
+
+.menuAvailableLink:hover
+{
+	color:#333333;
+	background-color:#eeeeee;
+
+	padding:0.5em 1em 0.5em 1em;
+}
+
+/*==================================================================================*/
+/*==================================================================================*/
+/*==================================================================================*/
+/*AFFILIATION (near picture)*/
+.affiliation
+{
+	color:#222222;
+
+	font-family:Arial, Helvetica, sans-serif;
+	
+	line-height:150%;	
+}
+
+.linkAffiliation
+{
+	color:#1155CC;
+}	
+
+.linkAffiliation:hover
+{
+	color:#6611CC;
+}	
+
+/*==================================================================================*/
+/*==================================================================================*/
+/*==================================================================================*/
+
+.defaultHeader
+{
+	color:#D14836;
+}
+
+/*class default text*/
+.classText
+{
+	color:#222222;
+
+	font-family:"Lucida Grande","Lucida Sans",Verdana,Arial,sans-serif;
+}
+
+.classCopyright
+{
+	text-align:center;
+	color:#111111;
+
+	font-family:calluna, Georgia, serif;
+	font-size:10px;
+}
+
+/*class default links*/
+.classLinks
+{
+	color:#1155CC;
+
+	text-decoration:underline;
+}
+
+.classLinks:hover
+{
+	color:#6611CC;
+}
+
+/*==================================================================================*/
+/*==================================================================================*/
+/*==================================================================================*/
+.classTextPublications
+{
+	color:#222222;
+
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/*PUBLICATIONS*/
+.publicationsYear
+{
+	color:D14836;
+}
+
+/*Authors*/
+.author
+{
+	font-weight:bold;
+	color:#111111;
+	color:#7D848A;
+}
+
+.coauthor
+{
+	color:#7D848A;
+	
+	text-decoration:none;
+}
+
+.coauthor:hover
+{
+	color:#333333;
+}
+
+/*Title*/
+.publicationTitle
+{
+	color:#666666;
+
+	text-decoration:none;
+
+	font-size:larger;
+	font-weight:bold;
+}
+
+.publicationTitle:hover
+{
+	color:#333333;
+}
+
+.venue
+{
+	color:#7D848A;
+
+	text-decoration:none;
+	
+	font-style:italic;
+}
+
+.venue:hover
+{
+	color:#333333;
+}
+
+.venueSuffix
+{
+	color:#333333;
+}
+
+.venueAcceptanceRate
+{
+	color:#333333;
+	
+}
+
+/*Links to Online Appendices*/
+.linkPublication
+{
+	color:#1155CC;
+
+	text-decoration:underline;
+}
+
+.linkPublication:hover
+{
+	color:#6611CC;
+}
+
+/*Publications disclaimer*/
+#idPublicationsDisclaimer
+{
+	font-size:10px;
+}
+
+/*==================================================================================*/
+/*==================================================================================*/
+/*==================================================================================*/
+/*teaching*/
+.teachingYear
+{
+	color:#666666;
+}
+
+.teacherRole
+{
+	font-weight:bold;
+}
+
+/*==================================================================================*/
+/*==================================================================================*/
+/*==================================================================================*/
+/*Announcement Students*/
+.announcementStudents
+{
+	color:#FF0000;
+}
